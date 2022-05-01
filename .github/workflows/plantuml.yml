@@ -1,5 +1,6 @@
 name: generate plantuml
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - "dist/index.js"
