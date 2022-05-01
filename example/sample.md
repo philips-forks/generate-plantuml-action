@@ -63,6 +63,7 @@ In this case, this action complements `@startgantt` and `@endgantt`.
 ```plantuml@gantt:md-sample-gantt
 [Prototype design] lasts 15 days
 [Test prototype] lasts 10 days
+[Test prototype 2] lasts 20 days
 ```
 
 ![](./md-sample-gantt.svg)
