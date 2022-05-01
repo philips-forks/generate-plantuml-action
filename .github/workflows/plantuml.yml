@@ -42,7 +42,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Clean-up plantuml server
-        if: always() && ${{ matrix.run-container }}
+        if: ${{ matrix.run-container }}
         run: |
             docker stop plantuml
             docker rm plantuml
